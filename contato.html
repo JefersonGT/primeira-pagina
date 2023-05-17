@@ -1,0 +1,95 @@
+<html>
+    <head>
+
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulario HTML</title>
+
+        <style>
+
+            body{
+                margin: 0 auto; 
+                background-color: #5a189a; 
+                font-family: Arial, Helvetica, sans-serif; 
+                align-items: center; 
+                text-align: center;
+            }
+
+            #inicio{
+                text-align: center; 
+                background-color: aqua; 
+                font-size: 30px;
+            }
+
+            h1{
+                color: rgb(244, 244, 246);
+            }
+            h3{
+                color: rgb(215, 225, 27);
+            }
+
+            #rodape{
+                background-color: #2f4858; 
+                font-family: Arial, Helvetica, sans-serif; 
+                text-align: center; 
+                font-size: 20px; 
+                margin-top: 85px;
+            }
+        </style>
+        
+    </head>
+    <body>
+        <div id="Inicio">
+                
+                <h1>HTML <sup>Linguagem de Marcação de Hipertexto</sup></h1>
+                <h2>Tutorial para Iniciantes</h2>
+        </div>
+        
+    <H1>Fale Conosco</H1>
+        <br>
+    <p><h3>Envie sua mensagem e logo mais entraremos em contato.</h3></p>
+        <br>
+        <form  action="obrigado.html">
+            <label>Digite seu nome: </label>
+            <input type="text" required/>
+                <br>
+                <br>
+            <label>Digite seu email: </label>
+            <input type="e-mail"required/>
+                <br>
+                <br>
+            <label>Assunto: </label>
+            <select name="Assunto">
+    
+                <option value="selecione" selected>Selecione</option>
+                <option value="critica">Crítica</option>
+                <option value="elogio">Elogio</option>
+                <option value="sugestao">Sugestão</option>
+                <option value="comentario">Comentário</option>
+                
+            </select>
+                <br>
+                <br>
+            <label>Digite sua mensagem: </label>
+            <textarea type="text" name="mensagem" required></textarea>
+                <br>
+                <br>
+            <input type="checkbox" name="checkbox">
+            <label>Concordo com os Termos de Pivacidade do Site</label>
+                <br>
+                <br>
+            <button>ENVIAR</button>
+
+        
+        
+    </form>
+
+
+
+    <div id="rodape">
+        <h2>Desenvolvido por Jeferson Gomes &copy; Todos os direitos reservados</h2>
+    </div>
+</body>
+</html>

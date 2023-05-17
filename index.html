@@ -1,0 +1,337 @@
+
+<html>
+  
+    <head>
+       <title>Meu site HTML</title>
+       <style>
+
+          body{
+            margin: 0 auto; 
+            background-color: #fff; 
+            font-family: Arial, Helvetica, sans-serif;
+          }
+
+          header{
+            text-align: center; 
+            background-color: aqua; 
+            font-size: 30px;
+            margin-bottom: 30px;
+          }
+          
+          .lista1{
+            list-style: none;
+            padding: 10;
+            margin-left: 15px; 
+            margin-right: 15px; 
+            background-color: #219ebc; 
+            display: flex; 
+            justify-content: space-between; 
+            font-size: 25px;
+            flex-grow: 1;
+            color: #2f4858,
+           }
+
+           .gordim{
+            margin-top: 30px; 
+            font-size: 20px; 
+            padding-bottom: 30px;
+           }
+          
+          #tags{
+            display: flex;
+            margin-inline-start: 60px;
+          }
+
+          #tabela{
+            display: flex; 
+            color: white; 
+            width: 50%; 
+            background-color: rgb(71, 71, 184); 
+            margin-top: 30px;
+          }
+
+          table{
+            color: #fff;
+            border: 2px solid blueviolet;
+            }
+          
+          #lista{
+            display: flex; 
+            color: white;
+            flex-direction: column; 
+            background-color: rgb(9, 44, 104); 
+            margin-top: 30px;
+            width: 50%; 
+            margin-inline-end: 60px;
+          }
+
+          #html{
+            display: flex; 
+            justify-content: flex-start; 
+            align-items:flex-start;
+            margin-top: 30px; 
+            padding-inline-end: 30px; 
+            padding-inline-start: 30px;
+          }
+
+          .primeiro{
+            background-color: rgb(51, 51, 194); 
+            width: 33.33%; 
+            height: 200px; 
+            padding: 20px;
+          }
+
+          .segundo{
+            background-color: aquamarine; 
+            width: 33.33%;
+            height: 200px; 
+            padding: 20px;
+          }
+
+          .terceiro{
+            background-color:blueviolet; 
+            width: 33.33%; 
+            height: 200px; 
+            padding: 20px;
+            margin-bottom: 30px
+          }
+
+          #externo{
+            flex-direction: column;
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+          }
+          #sobre1{
+             background-color: aquamarine; 
+            margin-inline-start: 10px;
+          }
+          
+          #sobre{
+            padding: auto; 
+            
+          }
+
+           h3{
+            text-align: center; 
+            font-family: Arial, Helvetica, sans-serif;
+          }
+
+           #conteudo{
+            background-color: rgb(243, 243, 104); 
+            margin-inline-start: 10px;
+          }
+
+           #videos{
+            background-color: aquamarine; 
+            margin-inline-start: 10px;
+           }
+
+           #ebooks{
+            background-color: rgb(243, 243, 104); 
+            margin-inline-start: 10px; 
+            margin-inline-end: 10px;
+           }
+
+           #rodape{
+            background-color: #2f4858; 
+            font-family: Arial, Helvetica, sans-serif; 
+            text-align: center; 
+            font-size: 20px;
+           }
+       </style>
+    </head>
+    <body>
+      <div>
+        <header id="Inicio">
+          <h1>HTML <sup>Linguagem de Marcação de Hipertexto</sup></h1>
+          <h3>Tutorial para Iniciantes</h3>
+        </header>
+
+            <nav>
+                <ul class="lista1">
+
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="index.html#html">Html</a></li>
+                    <li><a href="index.html#tabela">Tabela</a></li>
+                    <li><a href="index.html#sobre">Sobre</a></li>
+                    <li><a href="index.html#rodape">Rodape</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+
+
+
+                </ul>
+            </nav>
+
+        <section class="gordim">
+          <p>
+              <img src="https://www.alura.com.br/artigos/assets/html-css-js/imagem-1.png" align="left" width="60px" border="0" title="Logo HTML"  />
+              <strong><ins>HTML</ins></strong><i> (Linguagem de Marcação de HiperTexto)</i> 
+              é o bloco de construção mais básico da web. 
+              <mark >Define o significado e a estrutura do conteúdo da web</mark>. 
+              Outras tecnologias do HTML geralmente são usadas...  
+          </p>
+        </section>
+        <hr>
+        <section id="tags">
+            <section id="tabela">
+              <p>
+                <table border="1">
+                    <thead>
+                        <caption>Tabela de TAGs HTML</caption>
+                        <tr>
+                        <th colspan="2">Tabela de TAGs HTML</th>
+                        </tr>
+                        <tr>
+                        <th>Tag HTML</th>
+                        <th>Para que Serve</th>
+                        </tr>
+                    </thead>
+                    <tbody >
+                        <tr>
+                        <td>HTML</td>
+                        <td>define um documentos HTML</td>
+                        </tr>
+                        <tr>
+                        <td>HEAD</td>
+                        <td>Define a área de configuração de um documento HTML</td>
+                        </tr>
+                        <td>BODY</td>
+                    <td>Define a área de conteúdo de um documentos HTML</td>
+                    </tr>
+                    <tr>
+                    <td>A</td>
+                    <td>Tag de link (ancoragem) em elementos dentro de um doc HTML</td>
+                    </tr>
+                    <tr>
+                    <td>IMG</td>
+                    <td>Define uma imagem dentro de um doc HTML</td>
+                    </tr>
+                    <tr>
+                    <td>Div</td>
+                    <td>Elemento que divide e organiza conteúdos dentro de um doc HTML</td>
+                    </tr>
+                    </tbody>
+                </table>
+              </p>
+            </section>
+            <section id="lista">
+              <p>
+                
+                <ol type="" >
+                <h3>Top 5 protocolos</h3>
+                <li>HTTP - HyperText Transfer Protocol</li>
+                <li>FTP - File Transfer Protocol</li>
+                <li>POP - Post Office Protocol</li>
+                <li>SMTP - Simple Mail Transfer Protocol</li>
+                <li>IMAP - Internet Messaging Access Protocol</li>
+                </ol>
+                
+              <ul>
+                <li>HTTP - HyperText Transfer Protocol</li>
+                <li>FTP - File Transfer Protocol</li>
+                <li>POP - Post Office Protocol</li>
+                <li>SMTP - Simple Mail Transfer Protocol</li>
+                <li>IMAP - xxxxxxx</li>
+              </ul>
+              </p>
+            </section>
+        </section>
+        <section id="html">
+            <section class="primeiro">
+                <h2 >O que é CSS?</h2>
+                <p>Cascading Style Sheets (CSS) é usado para formatar o layout de 
+                  uma página da web. Com CSS, você pode controlar a cor, a fonte, o tamanho do texto,
+                   o espaçamento entre os elementos, como os elementos são posicionados e dispostos,
+                    quais imagens de fundo ou cores de fundo devem ser usadas, exibições diferentes
+                     para dispositivos e tamanhos de tela diferentes e muito mais!
+                </p>
+            </section>
+              <section  class="segundo">
+                <h2>O que é HTML?</h2>
+                <p>
+                  HTML é uma linguagem de marcação utilizada na construção de páginas na Web.
+                  Documentos HTML podem ser interpretados por navegadores. 
+                  A tecnologia é fruto da junção entre os padrões HyTime e SGML. 
+                  HyTime é um padrão para a representação estruturada de hipermídia e 
+                  conteúdo baseado em tempo.
+                </p>
+              </section>
+              <section class="terceiro">
+               <h2>O que é JavaScript?</h2>
+               <p>
+                JavaScript é uma linguagem de programação interpretada estruturada, 
+                de script em alto nível com tipagem dinâmica fraca e multiparadigma. 
+                Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias
+                 da World Wide Web.
+               </p>
+              </section>
+        </section>
+      </div>
+
+      
+      <section  id="sobre">
+
+
+          <div id="externo">
+          <div id="sobre1">
+              <h3>Sobre</h3>
+              <ul>
+                  <li><a style="color: green;" href="Modelo.html#JavaScript"> JavaScript </a></li>
+                  <li><a style="color: green;" href="Modelo.html#TAGs">Tags html</a></li>
+                  <li><a style="color: green;" href="Modelo.html#Inicio"> Inicio</a></li>
+                  <li><a style="color: green;" href="Contato.html"> Fale conosco</a></li>
+                  
+              </ul>
+          </div>
+
+          <div id="conteudo">
+            <h3>Conteudo relacionado</h3>
+            <ul>
+                <li><a style="color: green;" href="https://www.homehost.com.br/blog/tutoriais/o-que-e-html/"> O que é html </a></li>
+                <li><a style="color: green;" href="https://dev.to/hnrq-br/aprendendo-js-no-android-1bdl">Como programar JavaScript</a></li>
+                <li><a style="color: green;" href="https://justaskthales.com/br/como-funciona-o-aparelho-celular/#:~:text=O%20celular%20funciona%20por%20meio,chamada%20entre%20os%20dois%20aparelhos."> Como funciona o Celular</a></li>
+                <li><a style="color: green;" href="https://rockcontent.com/br/blog/como-criar-um-site/#:~:text=Como%20um%20site%20funciona%3F,em%20seu%20banco%20de%20dados."> Como funciona o site</a></li>
+                
+            </ul>
+        </div>
+
+        <div id="videos">
+          <h3>Videos sobre o assunto</h3>
+          <ul>
+              <li><a style="color: green;" href="https://www.youtube.com/watch?v=3oSIqIqzN3M"> Canal Rafaella Ballerini </a></li>
+              <li><a style="color: green;" href="https://www.youtube.com/watch?v=0409yssD3vk">Canal IlustraDev</a></li>
+              <li><a style="color: green;" href="https://www.youtube.com/watch?v=SV7TL0hxmIQ"> Canal Hora de Codar</a></li>
+              <li><a style="color: green;" href="https://www.youtube.com/watch?v=Ejkb_YpuHWs&list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n"> Canal Curso em Video</a></li>
+              
+          </ul>
+      </div>
+
+      <div id="ebooks">
+        <h3>Ebooks</h3>
+        <ul>
+            <li><a style="color: green;" href="https://horadecodar.com.br/ebook-melhores-praticas-html-e-css-gratuito/"> Html e Css </a></li>
+            <li><a style="color: green;" href="https://materiais.targettrust.com.br/ebook-guia-html-e-css-lp">Guia html e Css</a></li>
+            <li><a style="color: green;" href="https://www.caelum.com.br/apostila/apostila-html-css-javascript.pdf"> Html , Css e JavaScript</a></li>
+            <li><a style="color: green;" href="https://codigosimples.net/wp-content/uploads/InfoQ%20Brasil%20eMag%20HTML5%20e%20JavaScript.pdf"> Prossima geração do Html</a></li>
+            
+        </ul>
+      </div>
+
+
+      </div>
+
+
+      </section>
+      <footer>
+        
+        
+        <div id="rodape">
+            <h2>Desenvolvido por Jeferson Gomes &copy; Todos os direitos reservados</h2>
+        </div>
+
+      </footer>
+
+    </body>
+
+
+</html>
