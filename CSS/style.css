@@ -1,0 +1,135 @@
+
+body{
+    margin: 0 auto; 
+    background-color: #fff; 
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  header{
+    text-align: center; 
+    background-color: aqua; 
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .lista1{
+    list-style: none;
+    padding: 10;
+    margin-left: 15px; 
+    margin-right: 15px; 
+    background-color: #219ebc; 
+    display: flex; 
+    justify-content: space-between; 
+    font-size: 25px;
+    flex-grow: 1;
+    color: #2f4858,
+   }
+
+   .gordim{
+    margin-top: 30px; 
+    font-size: 20px; 
+    padding-bottom: 30px;
+   }
+  
+  #tags{
+    display: flex;
+    margin-inline-start: 60px;
+  }
+
+  #tabela{
+    display: flex; 
+    color: white; 
+    width: 50%; 
+    background-color: rgb(71, 71, 184); 
+    margin-top: 30px;
+  }
+
+  table{
+    color: #fff;
+    border: 2px solid blueviolet;
+    }
+  
+  #lista{
+    display: flex; 
+    color: white;
+    flex-direction: column; 
+    background-color: rgb(9, 44, 104); 
+    margin-top: 30px;
+    width: 50%; 
+    margin-inline-end: 60px;
+  }
+
+  #html{
+    display: flex; 
+    justify-content: flex-start; 
+    align-items:flex-start;
+    margin-top: 30px; 
+    padding-inline-end: 30px; 
+    padding-inline-start: 30px;
+  }
+
+  .primeiro{
+    background-color: rgb(51, 51, 194); 
+    width: 33.33%; 
+    height: 200px; 
+    padding: 20px;
+  }
+
+  .segundo{
+    background-color: aquamarine; 
+    width: 33.33%;
+    height: 200px; 
+    padding: 20px;
+  }
+
+  .terceiro{
+    background-color:blueviolet; 
+    width: 33.33%; 
+    height: 200px; 
+    padding: 20px;
+    margin-bottom: 30px  
+  }
+
+  #externo{
+    flex-direction: column;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+  }
+
+  #sobre1{
+     background-color: aquamarine; 
+    margin-inline-start: 10px;
+  }
+  
+  #sobre{
+    padding: auto; 
+    
+  }
+
+   h3{
+    text-align: center; 
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+   #conteudo{
+    background-color: rgb(243, 243, 104); 
+    margin-inline-start: 10px;
+  }
+
+   #videos{
+    background-color: aquamarine; 
+    margin-inline-start: 10px;
+   }
+
+   #ebooks{
+    background-color: rgb(243, 243, 104); 
+    margin-inline-start: 10px; 
+    margin-inline-end: 10px;
+   }
+
+   #rodape{
+    background-color: #2f4858; 
+    font-family: Arial, Helvetica, sans-serif; 
+    text-align: center; 
+    font-size: 20px;
+   }
